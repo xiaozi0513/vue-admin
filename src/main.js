@@ -8,10 +8,12 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
+import './assets/icons/iconfont.css'
+
 Vue.config.productionTip = false
 
 Vue.use(ElementUI, {
-  size: 'big' // set element-ui default size
+  size: 'medium' // set element-ui default size
 })
 
 /* eslint-disable no-new */
